@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:background="@drawable/box"
+    android:layout_height="350dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Movie"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/heading"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="257dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edit"
+        android:layout_marginTop="30dp"
+        android:hint="Movie Name"
+        android:paddingStart="10dp" />
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="257dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edit"
+        android:layout_marginTop="30dp"
+        android:hint="Movie Date"
+        android:paddingStart="10dp" />
+
+    <Button
+        android:layout_width="257dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:text="Add"
+        android:id="@+id/btnadd"
+        android:textColor="#FAFBFA"
+        android:background="@drawable/btn"
+        android:textSize="20dp"
+        />
+
+
+
+</LinearLayout>
